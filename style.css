@@ -1,0 +1,71 @@
+body {
+  background: url(./assets/Publicidade\ De\ Textura\ De\ Fundo\ Preto\ Papel\ de\ Parede\ Para\ Download\ Gratuito\ -\ Pngtree.jpg);
+  font-family: "Courier New", Courier, monospace;
+}
+
+#container {
+  margin: 0 25px;
+}
+
+#profile {
+  text-align: center;
+  padding: 24px;
+  padding-bottom: 5px;
+
+  
+}
+
+#profile img {
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid #666;
+}
+
+#profile p {
+  margin-top: 10px;
+  color: white;
+  font-weight: 500;
+  
+}
+
+#car-logo {
+  color: white;
+  font-size: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 500;
+  border: 1px solid #666;
+  text-decoration: none;
+  padding: 16px;
+  margin: 0 32px;
+  color: white;
+  border-radius: 10px;
+
+  background: #111;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  transition: background 0.2s;
+}
+ul li a:hover {
+  background: black;
+  border: 1.5px solid white;
+}
